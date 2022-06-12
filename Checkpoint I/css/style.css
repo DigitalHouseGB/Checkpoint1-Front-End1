@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Roboto:ital,wght@0,400;1,100&display=swap');
+* {
+  font-family: Roboto, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(img/2000px-Bandeira_da_cidade_de_São_Paulo.svg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+header {
+  flex-wrap: wrap;
+  background-color: #993e1d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d6d6d6;
+}
+header nav span a {
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: black;
+  border-radius: 36px;
+  margin: 12px;
+  color: #d6d6d6;
+}
+.Logo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #cc5327;
+  width: 340px;
+  height: 140px;
+  margin: 12px;
+  border-radius: 36px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 36px;
+  margin-bottom: 37px;
+}
+.Logo p {
+  font-size: 50px;
+  flex-wrap: wrap;
+}
+.Botão_Home h3 {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+.Botão_Home span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2%;
+  margin-top: -1%;
+}
+.Botão_Home {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cc5327;
+  width: 197px;
+  height: 82px;
+}
+.Botão_Curiosidades {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cc5327;
+  width: 197px;
+  height: 82px;
+}
+.Botão_Curiosidades span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Botão_Video {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cc5327;
+  width: 197px;
+  height: 82px;
+}
+#Titulo_primeira_seção {
+  width: 100%;
+  font-size: 32px;
+  padding-top: 28px;
+  padding-left: 36px;
+  max-width: fit-content;
+  color: black;
+}
+.Divisão_cards {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 37px;
+}
+.Divisão_cards div {
+  border-radius: 31px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 335px;
+  height: 534px;
+  background-color: #fff8e6;
+  flex-direction: column;
+}
+.titulo_classe {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+}
+.curiosidades_sp {
+  text-align: justify;
+}
+.Video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Video iframe {
+  border-radius: 31px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 80%;
+  height: 534px;
+  margin-bottom: 15%;
+}
+#Titulo_video {
+  max-width: fit-content;
+  width: 100%;
+  font-size: 32px;
+  margin-left: 10%;
+  color: black;
+}
+footer {
+  margin: auto;
+  background-color: #993e1d;
+  display: flex;
+  flex-direction: column;
+  color: #d6d6d6;
+}
+footer h2 {
+  max-width: fit-content;
+  padding-left: 7%;
+  padding-top: 2%;
+  font-size: 64px;
+}
+.GitHub {
+  padding-bottom: 10%;
+}
+.LinkedIn a {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 141px;
+  height: 141px;
+  border-radius: 100%;
+}
+.GitHub a {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 141px;
+  height: 141px;
+  border-radius: 100%;
+  padding-top: 12%;
+}
+.GitHub p {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+}
+.LinkedIn p {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+}
+.LinkedIn img {
+  width: 141px;
+  height: 141px;
+  border-radius: 100%;
+}
+.GitHub img {
+  width: 141px;
+  height: 141px;
+  border-radius: 100%;
+}
+.Imagem_banner {
+  display: none;
+}
+#Cabeçalho {
+  margin-bottom: 10%;
+}
+#Imagem_cachorro {
+  margin-top: -43%;
+}
+#Imagem_onibus img {
+  margin-bottom: 5.5%;
+}
+.titulo_classe_cães_e_gatos h4 {
+  margin-top: -33%;
+  font-size: 20px;
+}
+.titulo_classe_card2 h4 {
+  font-size: 20px;
+  display: flex;
+  padding-bottom: -20%;
+}
+@media (min-width: 1280px) {
+  header {
+    height: 213px;
+    display: flex;
+  }
+  nav {
+    display: flex;
+  }
+  .Contato_titulo {
+    margin-top: 0%;
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Contato_titulo h2 {
+    max-height: fit-content;
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+    align-items: center;
+    padding-top: 0%;
+    padding-left: 5%;
+  }
+  footer {
+    height: 414px;
+    margin-top: 2%;
+  }
+  .GitHub {
+    align-items: center;
+    padding-bottom: 0%;
+    padding-top: 0%;
+  }
+  .GitHub a {
+    padding-top: 0%;
+  }
+  .LinkedIn {
+    align-items: center;
+  }
+  .Contatos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 243px;
+  }
+  .Contatos p {
+    padding-top: 24px;
+    max-height: max-content;
+    margin: auto;
+  }
+  .Imagem_banner {
+    display: block;
+    background-image: url(../css/img/Ponte\ estaiada.jpg);
+    height: 532px;
+  }
+  .Card_banner {
+    margin: auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding-top: 13%;
+  }
+  .caixa_interna {
+    height: 200px;
+    background-color: #fff8e6;
+    border-radius: 20%;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
