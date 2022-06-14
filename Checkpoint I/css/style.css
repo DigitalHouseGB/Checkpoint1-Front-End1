@@ -122,6 +122,12 @@ header nav span a {
 }
 .curiosidades_sp {
   text-align: justify;
+  width: 335px;
+  height:241px;
+}
+.curiosidades_sp p{
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .Video {
   display: flex;
@@ -206,13 +212,13 @@ footer h2 {
   margin-bottom: 10%;
 }
 #Imagem_cachorro {
-  margin-top: -43%;
+  margin-top: -53.5%;
 }
 #Imagem_onibus img {
   margin-bottom: 5.5%;
 }
 .titulo_classe_cães_e_gatos h4 {
-  margin-top: -33%;
+  margin-top: -40%;
   font-size: 20px;
 }
 .titulo_classe_card2 h4 {
